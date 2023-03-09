@@ -1,0 +1,170 @@
+.searchDiv {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.action {
+    cursor: pointer;
+    color: black;
+}
+.action-delete {
+    cursor: pointer;
+    color: firebrick;
+}
+.action-delete:hover {
+    color: red;
+}
+.action:hover {
+    color: cadetblue;
+}
+.margin10 {
+    margin-left: 10px;
+}
+.table_row_grey {
+  background-color: #D3D3D3 !important;
+}
+.table-hover > tbody > tr:hover {
+  background-color: #D3D3D3;
+}
+.table-content-row {
+  cursor: pointer;
+}
+.upload_mesh {
+  float:left;
+  margin-right:20px;
+}
+.clear_both {
+  clear:both;
+}
+.upload_progress_text {
+  float:left;
+  width:60%;
+  font-size:15px;
+  padding-top:5px;
+}
+.upload_progress_text_err {
+  color:red;
+}
+.upload_progress {
+  width:30%;
+  line-height: 10px !important;
+  padding-top:10px;
+}
+body, input, select, textarea {
+    /* font-family: 'Lato', sans-serif; */
+    font-weight: 400;
+    font-size: 13pt;
+    line-height: 1.75em;
+    letter-spacing: 0.025em;
+    background-color: #ffffff;}
+
+.axisRed text{
+    fill: #d62728;
+    font: 16px sans-serif;
+}
+
+.axisGreen text {
+    fill: #2ca02c;
+    font: 16px sans-serif;
+}
+
+.axisBlue text {
+    fill: #1f77b4;
+    font: 16px sans-serif;
+}
+
+.axis text {
+    font: 16px sans-serif;
+}
+
+.line {
+    fill: none;
+    stroke-width: 2px;
+}
+
+.grid line {
+    stroke: lightgrey;
+    stroke-opacity: 0.5;
+    shape-rendering: crispEdges;
+}
+
+.grid path {
+    stroke-width: 0;
+}
+
+.drop_down_users {
+  width: 900px;
+}
+
+.btn_billing_info {
+  margin-top:1em;
+}
+.mark_red {
+  background: red !important;
+}
+.btn_with_margin_left {
+  margin-left: 10px !important;
+}
+.inline {
+  display: inline;
+}
+.flex {
+  display: flex;
+}
+.inline-flex {
+  display: inline-flex;
+}
+.justify-content-center {
+  justify-content: center;
+}
+.align-items-center {
+  align-items: center;
+}
+
+.slidecontainer {
+    width: 100%;
+}
+
+.slider {
+    background: #6688cc;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.hslider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 8px;
+}
+
+.vslider {
+    writing-mode: bt-lr; /* IE */
+    -webkit-appearance: slider-vertical; /* WebKit */
+    height: 600px;
+    width: 20px;
+}
+
+.magnify {
+    background-color: #6688cc; /* Green */
+    border: none;
+    color: white;
+    width: 64px;
+    height: 64px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.vistable {
+    text-align: center;
+    vertical-align: middle;
+}
+

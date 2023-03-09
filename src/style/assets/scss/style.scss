@@ -1,0 +1,62 @@
+
+// Theme Font
+@import "themes/font/theme-font";
+
+// theme scrollbar
+@import "themes/plugin/perfect-scrollbar";
+
+// main framework
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "settings/custom-variables";
+@import "settings/theme-variables";
+
+// bootstrap
+@import "~bootstrap/scss/bootstrap";
+
+
+// icon
+@import "themes/font/next-icon";
+@import "themes/font/feather";
+@import "themes/font/fontawesome";
+@import "themes/font/flaticon";
+@import "themes/font/cryptofont";
+
+// bootstrap css
+@import "themes/bootstrap-overlay/card";
+@import "themes/bootstrap-overlay/button";
+@import "themes/bootstrap-overlay/radiobox-checkbox";
+@import "themes/bootstrap-overlay/switches";
+@import "themes/bootstrap-overlay/badge";
+
+@import "themes/general";
+@import "themes/generic";
+@import "themes/plugin/animate";
+
+
+// theme layouts
+@import "themes/layouts/menu-lite";
+
+// Dashboard Widgets
+@import "themes/dashboard/widget";
+
+// custom plugin
+// @import "themes/plugin/sweatalert";
+// @import "themes/plugin/lightbox";
+@import "themes/plugin/notification";
+@import "themes/plugin/pnotify";
+
+
+// pages
+@import "themes/pages/authentication";
+@import "themes/pages/maintaince";
+@import "themes/pages/pages";
+@import "themes/pages/help-desk";
+@import "themes/pages/fullcalender";
+@import "themes/pages/icon-lauouts";
+@import "themes/pages/user";
+@import "themes/pages/task-board";
+@import "themes/pages/masonry-gallery";
+
+// custom
+@import "themes/custom";
